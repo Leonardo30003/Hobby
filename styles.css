@@ -1,0 +1,16 @@
+img{
+    border-radius: 1px;
+    width: 400px;
+    margin: 10px;
+    flex-wrap: wrap;
+    border-radius: 10%;
+    transition: transform 0.3s ease-out;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+.dark-mode {
+    background-color: #000000;
+    color: #106133;
+  }
